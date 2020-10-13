@@ -1,0 +1,20 @@
+.welcome{
+  text-align: center;
+  color: black;
+  font-size: 25px;
+  text-transform: uppercase;
+
+}
+.text{
+  text-align: center;
+  margin-left: 10px;
+}
+.img{
+  display: flex;
+  margin-left: 100px;
+}
+.hi{
+  margin: 15px;
+  text-align: center;
+
+}

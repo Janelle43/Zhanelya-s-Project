@@ -1,0 +1,22 @@
+.stil{
+  text-align: center;
+  color: black;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+.ctgr{
+  display: flex;
+  margin-left: 100px;
+}
+.h{
+  margin: 20px;
+  text-align: center;
+}
+.next{
+  display: flex;
+  margin-left: 100px;
+}
+.sled{
+  display: flex;
+  margin-left: 100px;
+}

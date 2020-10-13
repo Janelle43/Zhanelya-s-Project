@@ -1,0 +1,19 @@
+<p class="still">Featured product of month </p>
+<div style="margin: 2% 15%; width: 70%;">
+  <hr style="width: 100%;">
+  <div class="place">
+    <img  class="phto" src="https://cdn.shopify.com/s/files/1/1981/3807/products/NVB-Fall-items-_2018_--PumpkinCheesecake5_800x.jpg?v=1538393182" width="400" height="400">
+  <div style="width: 70%;">
+    <h4 style="text-align: center; text-transform: uppercase;">Pumpkin Cheesecake </h4>
+  <hr style="width: 40%;text-align: end ">
+  <p style="text-align: center; text-transform: uppercase">$6.25</p>
+  <p style="text-align: center">Rich and creamy pumpkin cheesecake topping a spiced ginger graham cracker <br> crust.</p>
+  <div style="height: 13%; text-align: center;">
+    <button style="height: 80%; width: 40px; background: #ffffff; border: ghostwhite 1px solid;" id="color1" [disabled]="count==0" (click)="handleButtonClick('-')">-</button>
+  <input  style="width: 20%; height: 80%" [(ngModel)]="count" >
+  <button style="height: 80%; width: 40px; background: #ffffff; border: ghostwhite 1px solid;" id="color" (click)="handleButtonClick('+')">+</button>
+  <button style="color: white; background-color:black; margin: 2%; height: 80%;" >Add to card</button>
+  </div>
+  </div>
+</div>
+</div>

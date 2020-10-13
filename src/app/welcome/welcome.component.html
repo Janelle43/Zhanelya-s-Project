@@ -1,0 +1,30 @@
+<p [class.try]="true" class="welcome">Welcome to Noe Valley Bakery</p>
+<hr width="1200">
+<p class="text">We’re a family business who is honored to serve San Francisco’s neighborhood communities. Since 1995, our mission has been simple: to bring smiles to our neighbors. We’re here to help <br> you celebrate life’s moments, big and small: from A+ spelling tests to milestone birthdays.</p>
+
+
+<div *ngIf="true" class="  img">
+  <div class="hi">
+  <img  class="img1" src="https://cdn.shopify.com/s/files/1/1981/3807/products/NVB-Fall-items-_2018_-PumpkinBread_2048x.jpg?v=1538400205" height="300" width="300"/>
+  <p>Pumpkin Bread w/t Creame Cheese Topping</p>
+  <h4>{{price | currency}} {{money | exchage}}</h4>
+  </div>
+  <div class="hi">
+  <img class="img2" src="https://cdn.shopify.com/s/files/1/1981/3807/products/NVB-Fall-items-_2018_-PumpkinCheesecake_300x.jpg?v=1538393133"height="300" width="300"/>
+  <p>Pumpkin Cheesecake</p>
+  <h4> {{price1 | currency1}} {{money | exchage}}</h4>
+  </div>
+  <div class="hi">
+  <img class="img3" src="https://cdn.shopify.com/s/files/1/1981/3807/products/NVB-Fall-items-_2018_-PumpkinMuffinjpg_300x.jpg?v=1538400111"height="300" width="300"/>
+    <p>Pumpkin Muffin</p>
+    <h4>{{price2 | currency2}} {{money | exchage}}</h4>
+  </div>
+  <div class="hi">
+  <img src="https://cdn.shopify.com/s/files/1/1981/3807/products/NVB-Fall-items-_2018_-1PumkinSpiceCookie_800x.jpg?v=1538400284"height="300" width="300"/>
+    <p>Pumpkin Spice Cookie</p>
+    <h4> {{price3 | currency3}} {{money | exchage}}</h4>
+  </div>
+</div>
+<div style="text-align: center; width: 100%">
+<button style="background: white; " (click)="exchage()">Change cost</button>
+</div>
